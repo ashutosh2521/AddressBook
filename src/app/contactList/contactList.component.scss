@@ -1,0 +1,43 @@
+* {
+  font-family: jost;
+}
+.contact {
+  display: flex;
+  flex-direction: column;
+  padding: 7px;
+  cursor: pointer;
+  border: 1px solid lightgray;
+  border-top: none;
+}
+.contact-name {
+  font-size: 28px;
+  font-weight: 200;
+  cursor: pointer;
+  text-transform: capitalize;
+}
+
+.contact-email {
+  font-size: 14px;
+  line-height: 12px;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.contact-no {
+  font-size: 14px;
+  margin-left: 5px;
+  line-height: 8px;
+  cursor: pointer;
+}
+
+.contact:hover {
+  background-color: #cee7f2;
+}
+
+.contact:first-child {
+  border-top: 1px solid lightgray;
+}
+
+.active {
+  background-color: #cee7f2;
+}

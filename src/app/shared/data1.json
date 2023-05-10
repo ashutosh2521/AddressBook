@@ -1,0 +1,31 @@
+{
+  "contacts": [
+    {
+      "id": "1",
+      "name": "Ashutosh Kumar",
+      "email": "ashutosh.k@technovert.net",
+      "mobile": "9431102266",
+      "landline": "0651-2508235",
+      "website": "www.google.com",
+      "address": "Ranchi, Jharkhand"
+    },
+    {
+      "id": "2",
+      "name": "Mubin Ahmad",
+      "email": "mubin.a@keka.com",
+      "mobile": "8235230467",
+      "landline": "0651-2508235",
+      "website": "www.facebook.com",
+      "address": "Hyderabad, Telangana"
+    },
+    {
+      "id": "3",
+      "name": "Ramesh Kumar",
+      "email": "ramesh.k@keka.com",
+      "mobile": "8235230467",
+      "landline": "0651-2508235",
+      "website": "www.facebook.com",
+      "address": "Hyderabad, Telangana"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+<div class="row">
+  <div class="col-sm-4">
+    <div class="px-2 py-2">
+      <label class="font-900 text-medium text-uppercase mt-1 mb-2"
+        >contacts</label
+      >
+      <ul class="p-0">
+        <li
+          *ngFor="let contact of AllContacts"
+          class="contact"
+          (click)="navigateToDetail(contact.id)"
+          [ngClass]="{
+            active: contact && contact.id == currentContactId
+          }"
+        >
+          <label class="contact-name">{{ contact.name }}</label>
+          <label class="contact-email">{{ contact.email }}</label>
+          <label class="contact-no">{{ contact.mobile }}</label>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="col-sm-8 mt-4">
+    <router-outlet></router-outlet>
+  </div>
+</div>

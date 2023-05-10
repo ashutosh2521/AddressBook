@@ -1,0 +1,12 @@
+<div class="bg-dark d-flex justify-content-between align-items-stretch">
+  <div class="d-flex text-medium ml-3 font-700 text-uppercase">
+    <a class="nav-item cursor-pointer">HOME</a>
+    <a [routerLink]="['home/add']" class="nav-item ml-1 mr-1 cursor-pointer"
+      >+ADD</a
+    >
+    <a (click)="download()" download="contacts.xlsx" class ="nav-item ml-1 mr-1 cursor-pointer"
+      >Download Contacts</a
+    >
+  </div>
+  <img src="../../assets/blog-icon.png" class="mt-2 mb-2 mr-4" />
+</div>

@@ -1,0 +1,48 @@
+form {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 0px;
+  transition: 0.3s;
+  padding-bottom: 35px;
+  position: relative;
+}
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+.errorMsg {
+  font-size: 13px;
+  font-weight: 500;
+  color: red;
+  text-transform: lowercase;
+  margin-top: 2px;
+}
+label {
+  font-size: 14px;
+  font-weight: 700;
+}
+input {
+  height: 35px;
+}
+
+textarea {
+  height: 100px;
+}
+button {
+  width: 110px;
+  font-size: 13px;
+  background-color: #468c00;
+  margin-left: auto;
+  margin-right: 50px;
+  border: none;
+  padding: 5px;
+}
+
+.close {
+  position: absolute;
+  right: 20px;
+  opacity: 0.3;
+}
+
+.close:hover {
+  opacity: 1;
+}
